@@ -1,4 +1,4 @@
-# Xamarin-Touch Sample Android
+# Xamarin.Android-Touch Sample 
 
 Repository contains Xamarin Android samples to detect users touch events.
 Below are the objectives:
