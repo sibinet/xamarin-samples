@@ -3,7 +3,11 @@
 Repository contains Xamarin Android samples to detect users touch events.
 Below are the objectives:
 
-1) To detect users touch event on main layout.
-2) Draw random Circles and Squares based on code based condition.
-3) Load random colors based on code.
-4) Drag and move dynamically created shapes
+<ul>
+<li>To detect users touch event on main layout.</li>
+<li> Draw random Circles and Squares based on code based condition.</li>
+<li>Load random colors based on code.</li>
+<li>Drag and move dynamically created shapes</li>
+<ul>
+# Screenshot
+<img src='https://github.com/sibinet/xamarin-samples/blob/master/XaTouch-Android/ScreenShots/Capture_android.PNG'/>
