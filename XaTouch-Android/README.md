@@ -8,6 +8,6 @@ Below are the objectives:
 <li> Draw random Circles and Squares based on code based condition.</li>
 <li>Load random colors based on code.</li>
 <li>Drag and move dynamically created shapes</li>
-<ul>
+</ul>
 # Screenshot
 <img src='https://github.com/sibinet/xamarin-samples/blob/master/XaTouch-Android/ScreenShots/Capture_android.PNG'/>
