@@ -37,9 +37,6 @@ namespace pagetest
 		public override View GetView (int position, View convertView, ViewGroup parent)
 		{
 			View view = convertView; 
-
-			// re-use an existing view, if one is available
-			// otherwise create a new one
 			if (view == null)
 				view = context.LayoutInflater.Inflate (Resource.Layout.MyListView, parent, false);
 
@@ -49,13 +46,7 @@ namespace pagetest
 			ImageView imageView = view.FindViewById<ImageView> (Resource.Id.Thumbnail);
 			var imageBitmap = Handler.GetImageBitmapFromUrl(item.ImageURL);
 			imageView.SetImageBitmap (imageBitmap);
-			//using (var imageView = view.FindViewById<ImageView> (Resource.Id.Thumbnail)) {
-			//string url = Android.Text.Html.FromHtml (item.thumbnail).ToString ();
 
-			//Download and display image
-			//Koush.UrlImageViewHelper.SetUrlDrawable (imageView, 
-			//	url, Resource.Drawable.Placeholder);
-			//}
 			return view;
 		}
 	}
